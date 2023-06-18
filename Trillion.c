@@ -2,7 +2,7 @@
 #include <stdint.h>
 #include <pthread.h>
 
-#define THREAD_COUNT 8  // Number of threads to use
+#define THREAD_COUNT 32  // Number of threads to use, my CPU is a AMD Ryzen 9 5950X so it's does have 32 threads. 
 #define TARGET_COUNT 1000000000000ULL  // 1 trillion
 
 typedef struct {
